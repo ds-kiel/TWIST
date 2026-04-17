@@ -145,7 +145,7 @@ If you use this dataset, please cite:
 
 ```bibtex
 @article{twist2026,
-  title={TWIST: Train Detection under Weather, Illumination, and Seasonal Time},
+  title={TWIST: Trains under Weather, Illumination, and Seasonal Time},
   author={Ali, Momin and Stenger, Andre and Arkenberg, Til and Harms, Laura and Landsiedel, Olaf},
   journal={},
   year={2026}
