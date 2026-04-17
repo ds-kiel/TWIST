@@ -1,4 +1,4 @@
-# TWIST: Train Detection under Weather, Illumination, and Seasonal Time
+# TWIST: Trains under Weather, Illumination, and Seasonal Time
 
 This repository accompanies the paper:
 
