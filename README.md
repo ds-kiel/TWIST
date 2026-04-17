@@ -2,7 +2,7 @@
 
 This repository accompanies the paper:
 
-> **TWIST: Train Detection under Weather, Illumination, and Seasonal Time**  
+> **TWIST: Trains under Weather, Illumination, and Seasonal Time**  
 > Momin Ali, Andre Stenger, Til Arkenberg, Laura Harms, Olaf Landsiedel  
 > *ISIoT Workshop at DCOSS 2026*
 
