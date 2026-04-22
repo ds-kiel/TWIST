@@ -1,13 +1,5 @@
 # TWIST: Trains under Weather, Illumination, and Seasonal Time
 
-This repository accompanies the paper:
-
-> **TWIST: Trains under Weather, Illumination, and Seasonal Time**  
-> Momin Ali, Andre Stenger, Til Arkenberg, Laura Harms, Olaf Landsiedel  
-> *ISIoT Workshop at DCOSS 2026*
-
-The code is provided to support **reproducibility, transparency, and further research** in vision-based railway monitoring and edge AI systems.
-
 ## 📌 Overview
 
 **TWIST** is a real-world dataset for train detection designed to improve robustness of vision-based railway monitoring systems under diverse environmental conditions.
@@ -21,6 +13,8 @@ Vision-based railway monitoring systems often fail in real-world deployments due
 - 🚄 Motion blur & varying train speeds  
 
 The dataset is specifically designed for **robust train detection in real operational environments**.
+
+📥 [*Get the TWIST Dataset here*](https://zenodo.org/records/19472084?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImU3ZGEwMmZkLTZlNGUtNGI3Mi1iYzJlLWY2YjNiYzc2ODJjNyIsImRhdGEiOnt9LCJyYW5kb20iOiIxNjg5MjUyN2NjMGRlYzNjZDYzZjhlYWVkNGU5MzljMSJ9.NKBTdc8WEAofOfK601R6i70IzxCIpGds3q4uKSCWmqUMY32ZjE9bYkayyqDimaq4dPy8C1GsGCh1QLSkiRdziw)
 
 ---
 
