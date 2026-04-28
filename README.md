@@ -66,13 +66,13 @@ Annotations follow the **YOLO format**:
 
 We benchmark TWIST using **YOLOv8s**:
 
-| Setup | Training Data        | binary classification | mAP (%) | AP (Train) (%) |
-|-------|---------------------|--------|--------|----------------|
-| A     | COCO                |❌| 60.4   | 75.9           |
-| B     | COCO + TWIST        |❌| 60.8   | 89.1           |
-| C     | COCO → TWIST (test) |✔️| 81.1   | 81.1           |
-| D     | COCO + TWIST        |✔️| 99.0   | 99.0           |
-| E     | TWIST only          |✔️| 99.0   | 99.0           |
+| Setup | Training Dataset | Test Dataset        | Single Class | mAP (%) | AP (Train) (%) | Precision (%) | Recall (%) |
+|-------|------------------|--------------------|--------------|---------|----------------|----------------|-------------|
+| A     | COCO             | COCO + TWIST       | ×            | <span style="color:green"><b>60.8</b></span> | 75.9           | 77.4           | 67.5        |
+| B     | COCO + TWIST     | COCO + TWIST       | ×            | 60.4     | <span style="color:green"><b>89.1</b></span> | <span style="color:green"><b>94.8</b></span> | <span style="color:green"><b>83.6</b></span> |
+| C     | COCO             | TWIST              | ✓            | 81.1     | 81.1           | 89.2           | 67.3        |
+| D     | COCO + TWIST     | TWIST              | ✓            | 99.0     | 99.0           | 98.2           | 98.9        |
+| E     | TWIST            | TWIST              | ✓            | 99.0     | 99.0           | 98.3           | 93.9        |
 
 📈 **Key Insight:**  
 Training with TWIST significantly improves detection performance, especially under challenging conditions.
