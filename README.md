@@ -68,8 +68,8 @@ We benchmark TWIST using **YOLOv8s**:
 
 | Setup | Training Data        | binary classification | mAP (%) | AP (Train) (%) |
 |-------|---------------------|--------|--------|----------------|
-| A     | COCO                |❌| 61.0   | 66.1           |
-| B     | COCO + TWIST        |❌| 68.9   | 84.8           |
+| A     | COCO                |❌| 60.4   | 75.9           |
+| B     | COCO + TWIST        |❌| 60.8   | 89.1           |
 | C     | COCO → TWIST (test) |✔️| 81.1   | 81.1           |
 | D     | COCO + TWIST        |✔️| 99.0   | 99.0           |
 | E     | TWIST only          |✔️| 99.0   | 99.0           |
